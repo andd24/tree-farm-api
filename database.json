@@ -1,0 +1,85 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "Ashley Dickey",
+            "address": "11 Morte St",
+            "email": "ashley@mail.com"
+        }
+    ],
+    "locations": [
+        {
+            "id": 1,
+            "name": "Asheville, NC",
+            "address": "1511 Lexington AVe"
+        }
+    ],
+    "heights": [
+        {
+            "id": 1,
+            "height": 6,
+            "price": 60
+        },
+        {
+            "id": 2,
+            "height": 8,
+            "price": 80
+        },
+        {
+            "id": 3,
+            "height": 10,
+            "price": 100
+        }
+    ],
+    "lights": [
+        {
+            "id": 1,
+            "lights": "none",
+            "price": 0
+        },
+        {
+            "id": 2,
+            "lights": "color",
+            "price": 25
+        },
+        {
+            "id": 3,
+            "lights": "white",
+            "price": 35
+        }
+    ],
+    "flocks": [
+        {
+            "id": 1,
+            "flock": "none",
+            "price": 0
+        },
+        {
+            "id": 2,
+            "flock": "light",
+            "price": 30
+        },
+        {
+            "id": 3,
+            "flock": "heavy",
+            "price": 50
+        }
+    ],
+    "wreaths": [
+        {
+            "id": 1,
+            "wreath": "small",
+            "price": 20
+        },
+        {
+            "id": 2,
+            "wreath": "large",
+            "price": 30
+        },
+        {
+            "id": 3,
+            "wreath": "small with bow",
+            "price": 25
+        }
+    ]
+}
