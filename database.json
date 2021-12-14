@@ -1,85 +1,114 @@
 {
-    "users": [
-        {
-            "id": 1,
-            "name": "Ashley Dickey",
-            "address": "11 Morte St",
-            "email": "ashley@mail.com"
-        }
-    ],
-    "locations": [
-        {
-            "id": 1,
-            "name": "Asheville, NC",
-            "address": "1511 Lexington AVe"
-        }
-    ],
-    "heights": [
-        {
-            "id": 1,
-            "height": 6,
-            "price": 60
-        },
-        {
-            "id": 2,
-            "height": 8,
-            "price": 80
-        },
-        {
-            "id": 3,
-            "height": 10,
-            "price": 100
-        }
-    ],
-    "lights": [
-        {
-            "id": 1,
-            "lights": "none",
-            "price": 0
-        },
-        {
-            "id": 2,
-            "lights": "color",
-            "price": 25
-        },
-        {
-            "id": 3,
-            "lights": "white",
-            "price": 35
-        }
-    ],
-    "flocks": [
-        {
-            "id": 1,
-            "flock": "none",
-            "price": 0
-        },
-        {
-            "id": 2,
-            "flock": "light",
-            "price": 30
-        },
-        {
-            "id": 3,
-            "flock": "heavy",
-            "price": 50
-        }
-    ],
-    "wreaths": [
-        {
-            "id": 1,
-            "wreath": "small",
-            "price": 20
-        },
-        {
-            "id": 2,
-            "wreath": "large",
-            "price": 30
-        },
-        {
-            "id": 3,
-            "wreath": "small with bow",
-            "price": 25
-        }
-    ]
+  "users": [
+    {
+      "id": 1,
+      "name": "Ashley Dickey",
+      "address": "11 Morte St",
+      "email": "ashley@mail.com"
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "name": "Asheville",
+      "address": "1511 Lexington Ave, Asheville NC 28801",
+      "phone": "(828) 450-1109",
+      "hours": "Monday-Sunday 11AM-8PM"
+    },
+    {
+      "id": 2,
+      "name": "Nashville",
+      "address": "44 S Clinton Ave, Nashville TN 37212",
+      "phone": "(615) 702-8852",
+      "hours": "Monday-Sunday 11AM-8PM"
+    },
+    {
+      "id": 3,
+      "name": "Atlanta",
+      "address": "1313 Peachtree Ave, Atlanta GA 30301",
+      "phone": "(404) 210-7373",
+      "hours": "Monday-Sunday 11AM-8PM"
+    }
+  ],
+  "heights": [
+    {
+      "id": 1,
+      "height": 6,
+      "price": 60,
+      "imgURL": "https://huntersgardencentre.com/wp-content/uploads/2015/11/Fraser-Fir-Green.jpg"
+    },
+    {
+      "id": 2,
+      "height": 8,
+      "price": 80,
+      "imgURL": ""
+    },
+    {
+      "id": 3,
+      "height": 10,
+      "price": 100,
+      "imgURL": ""
+    }
+  ],
+  "lights": [
+    {
+      "id": 1,
+      "description": "Base- No Lights",
+      "price": 0,
+      "imgURL": "https://cfcdn.zulily.com/images/cache/product/452x1000/440716/zu89051879_alt_1_tm1599230457.jpg"
+    },
+    {
+      "id": 2,
+      "description": "Color Lights",
+      "price": 15,
+      "imgURL": "https://images.thdstatic.com/productImages/52a83299-4712-47eb-90a2-1594f89f07fd/svn/national-tree-company-pre-lit-christmas-trees-naffslh1-75rlo-4f_600.jpg"
+    },
+    {
+      "id": 3,
+      "description": "White Lights",
+      "price": 20,
+      "imgURL": "https://imgs.michaels.com/MAM/assets/1/5E3C12034D34434F8A9BAAFDDF0F8E1B/img/7D00FDB1C0824DE8B467518604F0B3D0/D248259S_3.jpg?fit=inside|540:540"
+    }
+  ],
+  "flocks": [
+    {
+      "id": 1,
+      "description": "Natural- No Flock",
+      "price": 0,
+      "imgURL": "https://www.altums.com/wp-content/uploads/2018/09/altums-noble-fir-christmas-tree-1.jpg"
+    },
+    {
+      "id": 2,
+      "description": "Light Flocking",
+      "price": 30,
+      "imgURL": "https://www.thebatavian.com/files/users/60/2014-4/flockedtreesnov262014.jpg"
+    },
+    {
+      "id": 3,
+      "description": "Heavy Flocking",
+      "price": 50,
+      "imgURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc85K6TdF5eyGXY7YhVi32-W0Uu-Tx-b18nHdPJQ7we0XL176GYfNjybFMZgDmgLJOhh8&usqp=CAU"
+    }
+  ],
+  "wreaths": [
+    {
+      "id": 1,
+      "description": "Small Wreath with Bow",
+      "price": 20,
+      "imgURL": ""
+    },
+    {
+      "id": 2,
+      "description": "Large Undecorated Wreath",
+      "price": 30,
+      "imgURL": ""
+    },
+    {
+      "id": 3,
+      "description": "Large Decorated Wreath",
+      "price": 40,
+      "imgURL": ""
+    }
+  ],
+  "orders": []
 }
