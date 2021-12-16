@@ -1,10 +1,42 @@
 {
   "users": [
     {
-      "id": 1,
       "name": "Ashley Dickey",
-      "address": "11 Morte St",
-      "email": "ashley@mail.com"
+      "address": "19 River Rd, Asheville NC 28801",
+      "email": "ashley@mail.com",
+      "phone": "828-805-2113",
+      "password": "ashley",
+      "id": 1
+    },
+    {
+      "name": "Remy C",
+      "address": "17 Blue St, Atlanta GA 30302",
+      "email": "remy@mail.com",
+      "phone": "",
+      "id": 2
+    },
+    {
+      "name": "Ant Silver",
+      "address": "119 Tree Lane, Nashville TN 37212",
+      "email": "ant@mail.com",
+      "phone": "615-808-9976",
+      "password": "ant",
+      "id": 3
+    },
+    {
+      "name": "Taryn Lytle",
+      "address": "44 Reindeer St Nashville TN 37218",
+      "email": "taryn@mail.com",
+      "phone": "615-303-9987",
+      "password": "taryn",
+      "id": 4
+    },
+    {
+      "name": "Lucy Lu",
+      "address": "3309 21st Ave, Nashville TN 37212",
+      "email": "lucy@mail.com",
+      "phone": "828-989-7712",
+      "id": 5
     }
   ],
   "locations": [
@@ -13,41 +45,41 @@
       "name": "Asheville",
       "address": "1511 Lexington Ave, Asheville NC 28801",
       "phone": "(828) 450-1109",
-      "hours": "Monday-Sunday 11AM-8PM"
+      "hours": "Monday-Sunday 11AM-8PM",
+      "imgURL": "https://assets.simpleviewinc.com/simpleview/image/upload/c_limit,h_1200,q_75,w_1200/v1/clients/asheville/christmas_tree__6db997eb-8597-4512-b4d3-11281443d06d.jpg"
     },
     {
       "id": 2,
       "name": "Nashville",
       "address": "44 S Clinton Ave, Nashville TN 37212",
       "phone": "(615) 702-8852",
-      "hours": "Monday-Sunday 11AM-8PM"
+      "hours": "Monday-Sunday 11AM-8PM",
+      "imgURL": "https://jvisecretgardens.com/wp-content/uploads/2019/11/Christmas-trees-for-sale-in-Nashville-at-JVI-Secret-Gardens-600x450.jpg"
     },
     {
       "id": 3,
       "name": "Atlanta",
       "address": "1313 Peachtree Ave, Atlanta GA 30301",
       "phone": "(404) 210-7373",
-      "hours": "Monday-Sunday 11AM-8PM"
+      "hours": "Monday-Sunday 11AM-8PM",
+      "imgURL": "https://cloudfront-us-east-1.images.arcpublishing.com/ajc/NZ5ZIJD7ZRGXNI5QQJDPIIHQ6E.jpg"
     }
   ],
   "heights": [
     {
       "id": 1,
       "height": 6,
-      "price": 60,
-      "imgURL": "https://huntersgardencentre.com/wp-content/uploads/2015/11/Fraser-Fir-Green.jpg"
+      "price": 60
     },
     {
       "id": 2,
       "height": 8,
-      "price": 80,
-      "imgURL": ""
+      "price": 80
     },
     {
       "id": 3,
       "height": 10,
-      "price": 100,
-      "imgURL": ""
+      "price": 100
     }
   ],
   "lights": [
@@ -79,13 +111,13 @@
     },
     {
       "id": 2,
-      "description": "Light Flocking",
+      "description": "Light Flock",
       "price": 30,
       "imgURL": "https://www.thebatavian.com/files/users/60/2014-4/flockedtreesnov262014.jpg"
     },
     {
       "id": 3,
-      "description": "Heavy Flocking",
+      "description": "Heavy Flock",
       "price": 50,
       "imgURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc85K6TdF5eyGXY7YhVi32-W0Uu-Tx-b18nHdPJQ7we0XL176GYfNjybFMZgDmgLJOhh8&usqp=CAU"
     }
@@ -93,22 +125,83 @@
   "wreaths": [
     {
       "id": 1,
-      "description": "Small Wreath with Bow",
-      "price": 20,
-      "imgURL": ""
+      "description": "Free Wreath",
+      "price": 0,
+      "imgURL": "https://cdn.shopify.com/s/files/1/0212/1030/0480/products/DSC0025.jpg?v=1601929334"
     },
     {
       "id": 2,
-      "description": "Large Undecorated Wreath",
-      "price": 30,
-      "imgURL": ""
+      "description": "Wreath w/ Bow",
+      "price": 35,
+      "imgURL": "https://clinechurchnursery.com/store/image/cache/catalog/images/products/photo-store-FraserBow-500x500.jpg"
     },
     {
       "id": 3,
-      "description": "Large Decorated Wreath",
-      "price": 40,
-      "imgURL": ""
+      "description": "Deluxe Wreath",
+      "price": 55,
+      "imgURL": "https://www.appevergreens.com/wp-content/uploads/2015/06/DSC0035.jpg"
     }
   ],
-  "orders": []
+  "orders": [
+    {
+      "userId": 2,
+      "heightId": 2,
+      "lightId": 2,
+      "flockId": 2,
+      "wreathId": 2,
+      "delivery": true,
+      "locationId": 3,
+      "total": 180,
+      "date": "2021-12-15",
+      "id": 1
+    },
+    {
+      "userId": 2,
+      "heightId": 1,
+      "lightId": 2,
+      "flockId": 2,
+      "wreathId": 1,
+      "delivery": true,
+      "locationId": 1,
+      "total": 150,
+      "date": "2021-12-15",
+      "id": 2
+    },
+    {
+      "userId": 1,
+      "heightId": 1,
+      "lightId": 1,
+      "flockId": 1,
+      "wreathId": 1,
+      "delivery": true,
+      "locationId": 1,
+      "total": 105,
+      "date": "2021-12-15",
+      "id": 3
+    },
+    {
+      "userId": 1,
+      "heightId": 3,
+      "lightId": 3,
+      "flockId": 3,
+      "wreathId": 3,
+      "delivery": true,
+      "locationId": 2,
+      "total": 235,
+      "date": "2021-12-15",
+      "id": 4
+    },
+    {
+      "userId": 2,
+      "heightId": 1,
+      "lightId": 1,
+      "flockId": 1,
+      "wreathId": 1,
+      "delivery": true,
+      "locationId": 1,
+      "total": 85,
+      "date": "2021-12-15",
+      "id": 5
+    }
+  ]
 }
