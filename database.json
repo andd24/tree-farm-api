@@ -12,57 +12,66 @@
       "name": "Remy C",
       "address": "17 Blue St, Atlanta GA 30302",
       "email": "remy@mail.com",
-      "phone": "",
+      "phone": "615-332-4098",
+      "password": "remy",
       "id": 2
     },
     {
-      "name": "Ant Silver",
-      "address": "119 Tree Lane, Nashville TN 37212",
-      "email": "ant@mail.com",
-      "phone": "615-808-9976",
-      "password": "ant",
+      "name": "Santa Claus",
+      "address": "67 Reindeer Ln, Nashville TN 37212",
+      "email": "santa@mail.com",
+      "phone": "727-808-9597",
+      "password": "santa",
       "id": 3
-    },
-    {
-      "name": "Taryn Lytle",
-      "address": "44 Reindeer St Nashville TN 37218",
-      "email": "taryn@mail.com",
-      "phone": "615-303-9987",
-      "password": "taryn",
-      "id": 4
-    },
-    {
-      "name": "Lucy Lu",
-      "address": "3309 21st Ave, Nashville TN 37212",
-      "email": "lucy@mail.com",
-      "phone": "828-989-7712",
-      "id": 5
     }
   ],
   "locations": [
     {
       "id": 1,
-      "name": "Asheville",
-      "address": "1511 Lexington Ave, Asheville NC 28801",
-      "phone": "(828) 450-1109",
+      "name": "The Farm",
+      "address": "2100 Breedlove Rd, Glenville NC 28736",
+      "phone": "(404) 210-7373",
       "hours": "Monday-Sunday 11AM-8PM",
-      "imgURL": "https://assets.simpleviewinc.com/simpleview/image/upload/c_limit,h_1200,q_75,w_1200/v1/clients/asheville/christmas_tree__6db997eb-8597-4512-b4d3-11281443d06d.jpg"
+      "imgURL": "https://carolinafraserfir.com/wp-content/uploads/2019/08/Front-Cover-e1564782957762.jpg",
+      "imgURL2": "https://cloudfront-us-east-1.images.arcpublishing.com/ajc/NZ5ZIJD7ZRGXNI5QQJDPIIHQ6E.jpg",
+      "latitude": 33.761901,
+      "longitude": -84.353564,
+      "description": "Make a trip to the farm... we've got picture perfect backgrounds for holiday photos, tractor rides, hot food and drinks, and so much more."
     },
     {
       "id": 2,
-      "name": "Nashville",
-      "address": "44 S Clinton Ave, Nashville TN 37212",
-      "phone": "(615) 702-8852",
+      "name": "Asheville",
+      "address": "336 Hilliard Ave, Asheville NC 28801",
+      "phone": "(828) 450-1109",
       "hours": "Monday-Sunday 11AM-8PM",
-      "imgURL": "https://jvisecretgardens.com/wp-content/uploads/2019/11/Christmas-trees-for-sale-in-Nashville-at-JVI-Secret-Gardens-600x450.jpg"
+      "imgURL": "https://assets.simpleviewinc.com/simpleview/image/upload/c_limit,h_1200,q_75,w_1200/v1/clients/asheville/christmas_tree__6db997eb-8597-4512-b4d3-11281443d06d.jpg",
+      "latitude": 35.590863,
+      "longitude": -82.559065,
+      "description": "If you find yourself near beautiful Asheville, NC come on out to our stand located downtown. Grab some locally brewed booze while you're here!"
     },
     {
       "id": 3,
+      "name": "Nashville",
+      "address": "411 Hume St, Nashville TN 37208",
+      "phone": "(615) 702-8852",
+      "hours": "Monday-Sunday 11AM-8PM",
+      "imgURL": "https://static.onecms.io/wp-content/uploads/sites/24/1970/01/nashville-tennessee-nashville0217.jpg",
+      "imgURL2": "https://jvisecretgardens.com/wp-content/uploads/2019/11/Christmas-trees-for-sale-in-Nashville-at-JVI-Secret-Gardens-600x450.jpg",
+      "latitude": 36.181362,
+      "longitude": -86.788963,
+      "description": "In Music City? Come down to our stand in North Nashville to pick out a tree and get a glass of eggnog or some Nashville hot chicken!"
+    },
+    {
+      "id": 4,
       "name": "Atlanta",
-      "address": "1313 Peachtree Ave, Atlanta GA 30301",
+      "address": "1001 Alta Ave NE, Atlanta GA 30307",
       "phone": "(404) 210-7373",
       "hours": "Monday-Sunday 11AM-8PM",
-      "imgURL": "https://cloudfront-us-east-1.images.arcpublishing.com/ajc/NZ5ZIJD7ZRGXNI5QQJDPIIHQ6E.jpg"
+      "imgURL": "https://images.rove.me/w_1920,q_85/lzmbqn47tzqokmjljrkp/atlanta-christmas-lights-in-atlanta.jpg",
+      "imgURL2": "https://cloudfront-us-east-1.images.arcpublishing.com/ajc/NZ5ZIJD7ZRGXNI5QQJDPIIHQ6E.jpg",
+      "latitude": 33.761901,
+      "longitude": -84.353564,
+      "description": "In Atlanta for the holidays? Get your tree from our stand in the capital of the South. While you're here, grab a steaming cup of coffee and take a ride on the famous ferris wheel."
     }
   ],
   "heights": [
@@ -85,7 +94,7 @@
   "lights": [
     {
       "id": 1,
-      "description": "Base- No Lights",
+      "description": "No Lights",
       "price": 0,
       "imgURL": "https://cfcdn.zulily.com/images/cache/product/452x1000/440716/zu89051879_alt_1_tm1599230457.jpg"
     },
@@ -105,7 +114,7 @@
   "flocks": [
     {
       "id": 1,
-      "description": "Natural- No Flock",
+      "description": "Natural(No Flock)",
       "price": 0,
       "imgURL": "https://www.altums.com/wp-content/uploads/2018/09/altums-noble-fir-christmas-tree-1.jpg"
     },
@@ -144,64 +153,76 @@
   ],
   "orders": [
     {
-      "userId": 2,
+      "userId": 1,
       "heightId": 2,
       "lightId": 2,
       "flockId": 2,
       "wreathId": 2,
       "delivery": true,
-      "locationId": 3,
-      "total": 180,
-      "date": "2021-12-15",
+      "locationId": 2,
+      "total": 185,
+      "date": "2021-12-18",
       "id": 1
     },
     {
-      "userId": 2,
-      "heightId": 1,
-      "lightId": 2,
-      "flockId": 2,
-      "wreathId": 1,
+      "userId": 1,
+      "heightId": 2,
+      "lightId": 1,
+      "flockId": 1,
+      "wreathId": 2,
       "delivery": true,
-      "locationId": 1,
-      "total": 150,
-      "date": "2021-12-15",
+      "locationId": 2,
+      "total": 140,
+      "date": "2021-12-31",
       "id": 2
     },
     {
       "userId": 1,
-      "heightId": 1,
-      "lightId": 1,
-      "flockId": 1,
-      "wreathId": 1,
-      "delivery": true,
-      "locationId": 1,
-      "total": 105,
-      "date": "2021-12-15",
-      "id": 3
-    },
-    {
-      "userId": 1,
       "heightId": 3,
-      "lightId": 3,
+      "lightId": 2,
       "flockId": 3,
       "wreathId": 3,
       "delivery": true,
       "locationId": 2,
-      "total": 235,
-      "date": "2021-12-15",
-      "id": 4
+      "total": 245,
+      "date": "2022-01-01",
+      "id": 3
     },
     {
       "userId": 2,
-      "heightId": 1,
-      "lightId": 1,
+      "heightId": 2,
+      "lightId": 2,
       "flockId": 1,
       "wreathId": 1,
       "delivery": true,
-      "locationId": 1,
-      "total": 85,
-      "date": "2021-12-15",
+      "locationId": 3,
+      "total": 120,
+      "date": "2022-01-02",
+      "id": 4
+    },
+    {
+      "userId": 3,
+      "heightId": 2,
+      "lightId": 2,
+      "flockId": 2,
+      "wreathId": 3,
+      "delivery": true,
+      "locationId": 4,
+      "total": 205,
+      "date": "2022-01-03",
       "id": 5
+    },
+    {
+      "userId": 3,
+      "heightId": 3,
+      "lightId": 2,
+      "flockId": 1,
+      "wreathId": 1,
+      "delivery": true,
+      "locationId": 4,
+      "total": 140,
+      "date": "2022-01-04",
+      "id": 6
     }
   ]
 }
